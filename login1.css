@@ -1,0 +1,112 @@
+body{
+margin: 0px;
+}
+.header{
+    flex-direction: row;
+    display: flex;
+    height: 100px;
+   
+    background-color: rgb(159, 8, 8)
+}
+.logo{
+    flex: 1;
+
+}
+.signup{
+flex: 1; 
+   
+    
+}
+.signup h2{
+    text-align: center;
+    margin-top: 35px;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+.signup h2:hover{
+    color: black;
+    
+}
+
+.signup  a{
+    text-decoration: none;
+}
+.navmenu{
+    display: flex;
+    flex: 5;
+    
+}
+.navmenu ul{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    font-size: larger;
+    padding: 0px;
+}
+.navmenu ul li{
+    display: inline;
+    margin: 50px;
+}
+.navmenu ul a{
+    text-decoration: none;
+    color: white;
+}
+.navmenu ul a:hover{
+    color: black;
+}
+.logo img{
+    width: 116px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+.middiv{
+    display: flex;
+    background-image:  url(img/pexels-shuaizhi-tian-12034937.jpg);
+    height: 600px;
+    background-size: cover; 
+    
+}
+.footer{
+    
+}
+.footerone{
+    width: 100%;
+    background-color: #292929;
+    margin: auto;
+    display: block;
+    
+}
+.footerone h1{
+    text-align: center;
+    margin: 0px;
+    color: aliceblue;
+    padding: 20px;
+}
+.footertwo{
+    display: flex;
+    background-color: black;
+}
+.footertwo ul li{
+    color: aliceblue;
+    list-style-type: circle;
+    margin-left: 100px;
+}
+
+.divfirst{
+   flex: 1;
+}
+.divsecond{
+    flex: 1;
+}
+.footerthree{
+    text-align: center;
+    background-color: #292929;
+    color: aliceblue;
+    padding: 10px;
+    font-size: larger;
+}
+
+
